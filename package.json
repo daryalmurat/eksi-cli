@@ -1,0 +1,28 @@
+{
+  "name": "eksi-cli",
+  "version": "1.0.0",
+  "description": "Ekşi Sözlük CLI Tool",
+  "bin": {
+    "eksi": "./bin/eksi.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daryalmurat/eksi-cli.git"
+  },
+  "keywords": [
+    "ekşi",
+    "sözlük",
+    "ekşi",
+    "cli"
+  ],
+  "author": "daryal murat akay",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/daryalmurat/eksi-cli/issues"
+  },
+  "homepage": "https://github.com/daryalmurat/eksi-cli#readme"
+}
