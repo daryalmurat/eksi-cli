@@ -1,6 +1,6 @@
 {
-  "name": "@daryal/eksi-cli",
-  "version": "1.0.1",
+  "name": "@daryal/eksicli",
+  "version": "0.1.0",
   "description": "Ekşi Sözlük CLI Tool",
   "bin": {
     "eksi": "./bin/eksi.js"
