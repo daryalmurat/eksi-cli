@@ -1,11 +1,13 @@
 {
-  "name": "eksi-cli",
+  "name": "@daryal/eksi-cli",
   "version": "1.0.0",
   "description": "Ekşi Sözlük CLI Tool",
   "bin": {
     "eksi": "./bin/eksi.js"
   },
-  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
@@ -41,6 +43,7 @@
     "commander": "^5.1.0",
     "configstore": "^5.0.1",
     "inquirer": "^7.1.0",
-    "keytar": "^5.6.0"
+    "keytar": "^5.6.0",
+    "update-notifier": "^4.1.0"
   }
 }
