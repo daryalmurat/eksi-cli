@@ -8,9 +8,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daryalmurat/eksi-cli.git"

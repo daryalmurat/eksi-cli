@@ -2,11 +2,12 @@
 const Commander = require('commander');
 const updateNotifier = require('update-notifier');
 const Conf = require('../package.json');
+const pkg = require('../package.json');
 const login = require('../commands/login');
 const Header = require('../commands/header');
 const Entry = require('../commands/entry');
 
-updateNotifier({Conf}).notify({isGlobal: true});
+updateNotifier({pkg}).notify({isGlobal: true});
 
 
 const header = new Header();
